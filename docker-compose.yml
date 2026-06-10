@@ -1,0 +1,12 @@
+services:
+  ai-secure-app-lab:
+    build:
+      context: ./backend
+    container_name: ai-secure-app-lab
+    env_file:
+      - .env
+    ports:
+      - "${PORT:-8000}:8000"
+    volumes:
+      - ./seed-data:/app/seed-data:ro
+    restart: unless-stopped
