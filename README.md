@@ -127,3 +127,5 @@ curl -X POST http://localhost:8000/api/reset
 This project uses fake data, fake secrets, fake customers, and fake tools. It is intended only for defensive education and secure AI development training.
 
 Do not use these examples against systems you do not own or have permission to test.
+
+`Aung Myat Thu`
